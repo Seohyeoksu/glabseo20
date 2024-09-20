@@ -124,7 +124,7 @@ if st.button('암기법 생성하기', key='generate_button', help="선택한 �
                         "4. 마지막으로, 이 암기법을 효과적으로 사용하는 방법에 대한 간단한 팁을 제공해주세요."
                 }
             ],
-            model="gpt o1-preview",
+            model="gpt-o1-preview",
         )
 
         # Extract the generated content
