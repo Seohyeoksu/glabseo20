@@ -141,4 +141,4 @@ if st.button('암기법 생성하기', key='generate_button', help="선택한 �
         st.markdown("<div class='section'>", unsafe_allow_html=True)
         st.write("### 생성된 암기법:")
         st.write(result)
-        st.markdown("</div>", unsafe_allow_html=True)")
+        st.markdown("</div>", unsafe_allow_html=True)
