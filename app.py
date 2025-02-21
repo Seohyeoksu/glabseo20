@@ -156,4 +156,16 @@ if st.button('암기법 생성하기', key='generate_button', help="선택한 �
         st.markdown("<div class='result'>", unsafe_allow_html=True)
         st.write("### 🌟 생성된 암기법:")
         st.write(result)
-        st.markdown("</div>", unsafe_allow_html=True)
+        st.markdown("</div>", unsafe_allow_html=True) 
+        st.markdown(
+    """
+    <div class="footer" style="text-align:center; margin-top:20px;">
+        <!-- width를 원하는 픽셀(px) 혹은 퍼센트(%)로 조정 -->
+        <img src="https://huggingface.co/spaces/powerwarez/gailabicon/resolve/main/gailab06.png"
+             alt="icon"
+             style="width:80px; height:auto;">
+        <p>제작자: 교사 서혁수</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
