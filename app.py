@@ -157,7 +157,7 @@ if st.button('암기법 생성하기', key='generate_button', help="선택한 �
         st.write("### 🌟 생성된 암기법:")
         st.write(result)
         st.markdown("</div>", unsafe_allow_html=True) 
-        st.markdown(
+st.markdown(
     """
     <div class="footer" style="text-align:center; margin-top:20px;">
         <!-- width를 원하는 픽셀(px) 혹은 퍼센트(%)로 조정 -->
